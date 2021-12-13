@@ -1,6 +1,8 @@
 # "GeniQ" Mobile App
 GeniQ Mobile App is a quiz app for students in different kinds of levels English and IT. 
 
+![name-of-you-image](https://raw.githubusercontent.com/RSLUP/2021g5r4/main/assets/app.jpg)
+
 ## How to set up this project to run on your device.
 First, you have to [set up the development environment](https://reactnative.dev/docs/environment-setup) in your device to run this react native app.
 
