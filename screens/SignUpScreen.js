@@ -41,7 +41,7 @@ const SignUpScreen = ({navigation}) => {
       } else if (password != comfirm_password) {
         Alert.alert('Password and Confirm Password are not Equal');
       } else {
-        var InsertAPIURL = 'http://10.0.2.2:80/quize_app/register.php';
+        var InsertAPIURL = 'http://10.0.2.2:80/database/register.php';
         var headers = {
           Accept: 'application/json',
           'Content-Type': 'application.json',

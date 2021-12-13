@@ -31,7 +31,7 @@ const SignInScreen = ({navigation}) => {
       if (reg.test(email) == 0) {
         Alert.alert('Enter Valid Email Address.');
       } else {
-        var InsertAPIURL = 'http://10.0.2.2:80/quize_app/login.php';
+        var InsertAPIURL = 'http://10.0.2.2:80/database/login.php';
         var headers = {
           Accept: 'application/json',
           'Content-Type': 'application.json',
